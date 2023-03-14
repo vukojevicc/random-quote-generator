@@ -5,6 +5,6 @@
   const author = data.author
   const quoteDiv = document.querySelector('#random-quote-generator-div')
 
-  quoteDiv.querySelector('blockquote').innerText = quote
-  quoteDiv.querySelector('span').innerText += author
+  quoteDiv.querySelector('blockquote').innerText = '\u201c' + quote + '\u201d'
+  quoteDiv.querySelector('span').innerText = '-' + author
 })()

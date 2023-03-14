@@ -11,7 +11,7 @@ Author URI: https://aleksandarv.com/
 function my_admin_notice() {
     global $pagenow;
     if ($pagenow === 'index.php') {
-        echo '<div id="random-quote-generator-div"><blockquote></blockquote><span>-</span></div>';
+        echo '<div id="random-quote-generator-div"><blockquote></blockquote><span></span></div>';
     }
 }
 add_action('admin_notices', 'my_admin_notice');
