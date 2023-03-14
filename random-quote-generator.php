@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Random Quote Generator
+Plugin Name: Random Quote Generator Dashboard
 Plugin URI: https://github.com/vukojevicc/random-quote-generator
-Description: Displays a random quote on the WordPress admin dashboard
+Description: Displays a random quote on the WordPress dashboard index.php page
 Version: 1.0
 Author: Aleksandar Vukojevic
 Author URI: https://aleksandarv.com/
