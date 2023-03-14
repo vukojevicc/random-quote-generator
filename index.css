@@ -1,0 +1,19 @@
+#random-quote-generator-div {
+    font-style: italic;
+}
+#random-quote-generator-div blockquote {
+    font-size: 22px;
+    margin-left: 0;
+}
+#random-quote-generator-div span {
+    font-size: 16px;
+}
+#random-quote-generator-div blockquote::before {
+    content: '\201C';
+}
+#random-quote-generator-div blockquote::after {
+    content: '\201D';
+}
+#random-quote-generator-div span {
+
+}
